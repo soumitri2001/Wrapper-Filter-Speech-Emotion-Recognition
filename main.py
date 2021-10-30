@@ -29,7 +29,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ### CLI arguments ###
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_dir', type=str, default=os.getcwd(), help='path to directory where image data is stored')
-parser.add_argument('--max_epoch', type=int, default=100, help='number of training epochs')
+parser.add_argument('--num_epochs', type=int, default=100, help='number of training epochs')
 parser.add_argument('--batch_size', type=int, default=4, help='batch size for training')
 parser.add_argument('--learning_rate', type=float, default=0.0005, help='learning rate for training')
 parser.add_argument('--optimizer', type=str, default="SGD", help='optimizer for training: SGD / Adam')
@@ -83,7 +83,7 @@ print('-------------------------------------------------------------------------
 torch.save(model.state_dict(), os.path.join(args.saved_models, f'{model.MODEL_NAME}.pth'))
 
 ### get history to CPU from cuda ###
-for i in range(num_epochs):
+for i in range(args.num_epochs):
     history['train_acc'][i] = history['train_acc'][i].cpu().numpy().item() 
     history['val_acc'][i] = history['val_acc'][i].cpu().numpy().item()
 
