@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+venv/
+env/
+*.pyc
+*.obj
+*.zip
+*.png
+*.jpg
+env.bak/
+venv.bak/
+.idea/
+.vscode/
