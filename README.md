@@ -26,7 +26,7 @@ Then, run the code using the command prompt as follows:
 
 `python main.py --data_dir "./data"`
 
-Available arguments:
+**Available arguments:**
 - `--num_epochs`: number of training epochs. Default = 100
 - `--learning_rate`: learning rate for training. Default = 0.0005
 - `--batch_size`: batch size for training. Default = 4
