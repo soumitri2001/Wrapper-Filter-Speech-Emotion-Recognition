@@ -9,7 +9,7 @@ To install the required dependencies run the following in command prompt:
 `pip install -r requirements.txt`
 
 # Running the codes:
-Required directory structure: (**"data"** directory contains class-wise spectrograms of the raw audio files in original dataset).
+Required directory structure: (**"data"** directory contains class-wise **spectrograms** of the raw audio files in original dataset).
 
 ```
 
