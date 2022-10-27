@@ -1,5 +1,5 @@
 # Wrapper-Filter-Speech-Emotion-Recognition
-Based on our paper **"A Hybrid Deep Feature Selection Framework for Emotion Recognition from Human Speeches"** accepted for publication in _Multimedia Tools and Applications_, Springer.
+Based on our paper [**"A Hybrid Deep Feature Selection Framework for Emotion Recognition from Human Speeches"**](https://link.springer.com/article/10.1007/s11042-022-14052-y) published in _Multimedia Tools and Applications_, Springer.
 
 ## Overall Workflow
 <img src="./full_method.png" style="margin: 5px;">
@@ -34,3 +34,16 @@ Then, run the code using the command prompt as follows:
 - `--learning_rate`: learning rate for training. Default = 0.0005
 - `--batch_size`: batch size for training. Default = 4
 - `--optimizer`: optimizer for training: SGD / Adam. Default = "SGD"
+
+## Citation
+If you find our paper useful for your research, consider citing us:
+```
+@article{marik2022hybrid,
+  title={A hybrid deep feature selection framework for emotion recognition from human speeches},
+  authors={Marik, Aritra and Chattopadhyay, Soumitri and Singh, Pawan Kumar},
+  journal={Multimedia Tools and Applications},
+  DOI={https://doi.org/10.1007/s11042-022-14052-y}
+  year={2022},
+  publisher={Springer}
+}
+```
