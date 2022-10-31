@@ -40,9 +40,10 @@ If you find our paper useful for your research, consider citing us:
 ```
 @article{marik2022hybrid,
   title={A hybrid deep feature selection framework for emotion recognition from human speeches},
-  authors={Marik, Aritra and Chattopadhyay, Soumitri and Singh, Pawan Kumar},
+  author={Marik, Aritra and Chattopadhyay, Soumitri and Singh, Pawan Kumar},
   journal={Multimedia Tools and Applications},
-  DOI={https://doi.org/10.1007/s11042-022-14052-y}
+  DOI={https://doi.org/10.1007/s11042-022-14052-y},
+  pages={1--27},
   year={2022},
   publisher={Springer}
 }
