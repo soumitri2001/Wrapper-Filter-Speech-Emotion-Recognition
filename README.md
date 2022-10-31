@@ -1,5 +1,5 @@
 # Wrapper-Filter-Speech-Emotion-Recognition
-Based on our paper [**"A Hybrid Deep Feature Selection Framework for Emotion Recognition from Human Speeches"**](https://link.springer.com/article/10.1007/s11042-022-14052-y) published in _Multimedia Tools and Applications_, Springer.
+Based on our paper **"[A Hybrid Deep Feature Selection Framework for Emotion Recognition from Human Speeches](https://link.springer.com/article/10.1007/s11042-022-14052-y)"** published in **_Multimedia Tools and Applications_, Springer (2022).**
 
 ## Overall Workflow
 <img src="./full_method.png" style="margin: 5px;">
